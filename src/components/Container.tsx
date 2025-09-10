@@ -9,7 +9,7 @@ const Container = ({children,className}:IProps) => {
   return (
     <div
       className={cn(
-      'max-w-[1920px] w-full mx-auto px-4 py-4 xl:px-20',
+      'max-w-[1200px] w-full mx-auto px-4 py-4 xl:px-20',
       className && className
       )}
     >

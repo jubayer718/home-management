@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React, { useState } from 'react';
 import { AiOutlineHome } from "react-icons/ai";
 import { MdArrowOutward } from "react-icons/md";
@@ -7,13 +7,15 @@ import { FiMenu, FiX } from "react-icons/fi";
 import Container from '../Container';
 import Link from 'next/link';
 import Button from '../ui/Reuseable/Button';
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleClose = () => setIsOpen(false);
+
   return (
-    <nav className='border-b fixed top-0 left-0 w-full  z-50'>
+    <nav className='border-b fixed top-0 left-0 w-full z-50'>
       <Container>
         <div className='flex items-center justify-between py-3 px-4 md:px-0'>
           {/* Logo */}
@@ -52,35 +54,49 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile/Tablet Side Drawer */}
-        {isOpen && (
-          <motion.div
-            initial={{ x: "100%" }}
-            animate={{ x: 0 }}
-            exit={{ x: "100%" }}
-            transition={{ duration: 0.3 }}
-            className='fixed top-0 right-0 h-full w-3/4 sm:w-1/2 bg-[#0f172a] text-white flex flex-col gap-6 py-10 px-6 shadow-2xl lg:hidden z-50'
-          >
-            <ul className='flex flex-col gap-6 font-medium'>
-              <Link href={"/home"} onClick={() => setIsOpen(false)}>Home</Link>
-              <Link href={"/listing"} onClick={() => setIsOpen(false)}>Listing</Link>
-              <Link href={"/member"} onClick={() => setIsOpen(false)}>Member</Link>
-              <Link href={"/blog"} onClick={() => setIsOpen(false)}>Blog</Link>
-              <Link href={"/pages"} onClick={() => setIsOpen(false)}>Pages</Link>
-            </ul>
+        {/* Mobile/Tablet Side Drawer + Overlay */}
+        <AnimatePresence>
+          {isOpen && (
+            <>
+              {/* Overlay */}
+              <motion.div
+                className="fixed inset-0 bg-black bg-opacity-50 lg:hidden"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                onClick={handleClose}
+              />
 
-            <div className='flex flex-col gap-4 mt-6'>
-              <div className='flex items-center gap-2'>
-                <FaRegCircleUser size={20} />
-                <button><Link href={'/login'} onClick={() => setIsOpen(false)}>Login</Link></button>
-                /
-                <button><Link href={'/register'} onClick={() => setIsOpen(false)}>Register</Link></button>
-              </div>
+              {/* Side Drawer */}
+              <motion.div
+                initial={{ x: "100%" }}
+                animate={{ x: 0 }}
+                exit={{ x: "100%" }}
+                transition={{ duration: 0.3 }}
+                className='fixed top-0 right-0 h-full w-3/4 sm:w-1/2 text-white flex flex-col gap-6 py-10 px-6 shadow-2xl lg:hidden z-50'
+              >
+                <ul className='flex flex-col gap-6 font-medium'>
+                  <Link href={"/home"} onClick={handleClose}>Home</Link>
+                  <Link href={"/listing"} onClick={handleClose}>Listing</Link>
+                  <Link href={"/member"} onClick={handleClose}>Member</Link>
+                  <Link href={"/blog"} onClick={handleClose}>Blog</Link>
+                  <Link href={"/pages"} onClick={handleClose}>Pages</Link>
+                </ul>
 
-              <Button className='bg-white rounded-2xl w-fit' label='Add Property' icon={MdArrowOutward} />
-            </div>
-          </motion.div>
-        )}
+                <div className='flex flex-col gap-4 mt-6'>
+                  <div className='flex items-center gap-2'>
+                    <FaRegCircleUser size={20} />
+                    <button><Link href={'/login'} onClick={handleClose}>Login</Link></button>
+                    /
+                    <button><Link href={'/register'} onClick={handleClose}>Register</Link></button>
+                  </div>
+
+                  <Button className='bg-white rounded-2xl w-fit' label='Add Property' icon={MdArrowOutward} />
+                </div>
+              </motion.div>
+            </>
+          )}
+        </AnimatePresence>
       </Container>
     </nav>
   );

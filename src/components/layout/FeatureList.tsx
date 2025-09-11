@@ -1,6 +1,7 @@
 import SectionHeader from "../ui/Reuseable/SectionHeader";
 
 import { MdArrowOutward } from "react-icons/md";
+import SwiperFeatureList from "../ui/Reuseable/SwiperFeatureList";
 const FeatureList = () => {
   return (
     <div className="my-8">
@@ -14,7 +15,7 @@ const FeatureList = () => {
 
       {/*feature card section */}
       <div className="">
-
+    <SwiperFeatureList/>
       </div>
     </div>
   );

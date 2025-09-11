@@ -11,66 +11,101 @@ const GridApartType = () => {
   return (
     <Container>
 
-    <section>
+    <section className='space-y-4 my-5'>
+      <h2 className='text-center text-3xl font-semibold'>Explore Apartment Types</h2>
+      <p className='text-foreground text-center mb-10'>Aliquam lacinia diam quis lacus euismod</p>
       {/* level 1 */}
-        <div className=' flex lg:flex-row md:flex-row flex-col items-center gap-4'>
-          <div className=''>
+        <div className=' grid grid-cols-1 md:grid-cols-4 gap-4'>
+          <div className='col-span-2  bg-gray-600  rounded-2xl relative'>
             <Image
               src={'/grid1.jpg'}
-              width={ 100}
-              height={100}
+              width={240}
+              height={200}
+            
               alt=''
-              className=''
+              className='w-full  h-full mix-blend-overlay '
             />
+            <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Houses</span>
+              <span>7 Properties</span>
+            </p>
           </div>
-          <div className=''>
-            <Image
-              src={'/grid1.jpg'}
-           width={100}
-           height={100}
+          <div className='col-span-1  bg-gray-600  rounded-2xl relative'>
+           <Image
+              src={'/grid2.jpg'}
+              width={240 }
+              height={200}
+            
               alt=''
-              className=''
+              className='w-full mix-blend-overlay'
             />
+             <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Apartments</span>
+              <span>3 Properties</span>
+            </p>
           </div>
-          <div className=''>
+          <div className='col-span-1  bg-gray-600  rounded-2xl relative'>
             <Image
-              src={'/grid1.jpg'}
-              width={100}
-              height={100}
+              src={'/grid3.jpg'}
+              width={240 }
+              height={200}
+            
               alt=''
+              className='w-full mix-blend-overlay '
             />
+             <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Office</span>
+              <span>4 Properties</span>
+            </p>
           </div>
           
       </div>
         {/* level 2 */}
-        <div  className=' flex lg:flex-row md:flex-row flex-col items-center gap-4'>
-           <div className=''>
+        <div className=' grid grid-cols-1 md:grid-cols-4 gap-4'>
+          <div className='col-span-1  bg-gray-600  rounded-2xl relative'>
             <Image
-              src={'/grid1.jpg'}
-            width={100}
-            height={100}
+              src={'/grid4.jpg'}
+              width={240 }
+              height={200}
+            
               alt=''
-              className=''
+              className='w-full mix-blend-overlay'
             />
+             <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Townhome</span>
+              <span>2 Properties</span>
+            </p>
           </div>
-          <div className=''>
+          <div className='col-span-1  bg-gray-600  rounded-2xl relative'>
+           <Image
+              src={'/grid5.jpg'}
+              width={240 }
+              height={200}
+            
+              alt=''
+              className='w-full mix-blend-overlay'
+            />
+             <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Villa</span>
+              <span>4 Properties</span>
+            </p>
+          </div>
+          <div className='col-span-2  bg-gray-600  rounded-2xl relative'>
             <Image
-              src={'/grid1.jpg'}
-              width={100}
-              height={100}
+              src={'/grid6.jpg'}
+              width={240 }
+              height={200}
+            
               alt=''
-              className=''
+              className='w-full h-full mix-blend-overlay'
             />
+             <p className='absolute top-4 left-4 text-white flex flex-col'>
+              <span className=' font-semibold'>Bungalaw</span>
+              <span>1 Properties</span>
+            </p>
           </div>
-          <div className=''>
-            <Image
-              src={'/grid1.jpg'}
-            width={100}
-            height={100}
-              alt=''
-            />
-          </div>
-        </div>
+          
+      </div>
     </section>
     </Container>
   );

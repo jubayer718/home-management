@@ -1,7 +1,4 @@
-
-
-
-
+"use client"
 import {
   Card,
   CardAction,
@@ -24,7 +21,7 @@ interface ICardProps {
 const FeatureCard = ({feature}:ICardProps) => {
 
   const { Price, blocks, button, image, title } = feature;
-  console.log(feature)
+
   return (
     <div>
        <Card>

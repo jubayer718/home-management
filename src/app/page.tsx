@@ -1,5 +1,6 @@
 
 import ApartType from "@/components/layout/ApartType";
+import BuySell from "@/components/layout/BuySell";
 import FeatureList from "@/components/layout/FeatureList";
 import GridApartType from "@/components/layout/GridApartType";
 import Hero from "@/components/layout/Hero";
@@ -26,7 +27,10 @@ export default function Home() {
       <RailtorHelp />
       
       {/* Apartment type */}
-      <ApartType/>
+      <ApartType />
+      
+      {/* buy sell */}
+      <BuySell/>
 
     </>
   );

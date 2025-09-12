@@ -49,7 +49,7 @@ const BestDeals = () => {
                 <h4 className="font-bold  text-nowrap">{data.title}</h4>
               </CardContent>
               <CardFooter className=''>
-                <p className="flex items-center justify-between w-full">
+                <div className="flex items-center justify-between w-full">
                   <span className="text-orange-500 font-bold  ">{data.Price}</span>
                   <div className='flex items-center gap-2'>
                     <span className='flex items-center gap-2'>
@@ -66,7 +66,7 @@ const BestDeals = () => {
                     </span>
 
                   </div>
-                </p>
+                </div>
               </CardFooter>
             </Card>)
           }

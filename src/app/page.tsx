@@ -1,6 +1,7 @@
 
 import ApartType from "@/components/layout/ApartType";
 import BestDeals from "@/components/layout/BestDeals";
+import Blog from "@/components/layout/Blog";
 import BuySell from "@/components/layout/BuySell";
 import FeatureList from "@/components/layout/FeatureList";
 import GridApartType from "@/components/layout/GridApartType";
@@ -38,7 +39,10 @@ export default function Home() {
       <Living />
       
       {/* Best Deals */}
-      <BestDeals/>
+      <BestDeals />
+      
+      {/* blog */}
+      <Blog/>
 
     </>
   );

@@ -1,3 +1,6 @@
+import Bed1 from "@/Svg.Image/Bed1"
+import Bed2 from "@/Svg.Image/Bed2"
+import Bed3 from "@/Svg.Image/Bed3"
 import Railtor1 from "@/Svg.Image/Railtor1"
 import Railtor2 from "@/Svg.Image/Railtor2"
 import Railtor3 from "@/Svg.Image/Railtor3"
@@ -183,4 +186,63 @@ export const livingData = [
     icon: "",
     paragraph: "“Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit”"
   }
+]
+
+export const discoverData = [
+  {
+    image: "/discover1.png",
+    title: 'Luxury Family Home',
+    Price: '$5,800',
+    quantity: {
+      bedIcon: Bed1,
+      bedAmount: "2",
+      fountenIcon: Bed2,
+      fountenAmount: "2",
+      stairs: Bed3,
+      stairsAmount:"400"
+    },
+   
+  },
+  {
+    image: "/discover2.png",
+    title: 'Gorgeous Villa Bay',
+    Price: '$4,800',
+    quantity: {
+      bedIcon: Bed1,
+      bedAmount: "8",
+      fountenIcon: Bed2,
+      fountenAmount: "2",
+      stairs: Bed3,
+      stairsAmount:"300"
+    },
+   
+  },
+  {
+    image: "/discover3.png",
+    title: 'Skyper Pool Apartment',
+    Price: '$2,850',
+    quantity: {
+      bedIcon: Bed1,
+      bedAmount: "4",
+      fountenIcon: Bed2,
+      fountenAmount: "1",
+      stairs: Bed3,
+      stairsAmount:"200"
+    },
+   
+  },
+  {
+    image: "/discover4.png",
+    title: 'Diamond Manor Apartment',
+    Price: '$3,500',
+    quantity: {
+      bedIcon: Bed1,
+      bedAmount: "3",
+      fountenIcon: Bed2,
+      fountenAmount: "1",
+      stairs: Bed3,
+      stairsAmount:"200"
+    },
+   
+  },
 ]

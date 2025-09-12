@@ -17,7 +17,9 @@ const SectionHeader = ({
   paragraphText,
   label,
   className,
-  icon
+  icon,
+ 
+
   
   
 }:ISectionProps) => {
@@ -27,11 +29,14 @@ const SectionHeader = ({
       <h1 className='text-3xl font-semibold'>{ headerText}</h1>
       <div className='lg:flex items-center justify-between'>
         <p className='text-foreground'>{paragraphText }</p>
-        <Button
+          
+             <Button
           label={label && label}
           className={className && className}
           icon={icon && icon}
-        />
+          />
+       
+          
       </div>
       </div>
    </Container>

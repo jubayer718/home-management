@@ -3,7 +3,7 @@ import React from 'react';
 const Railtor2 = () => {
   return (
    <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_6108_170)">
+<g clipPath="url(#clip0_6108_170)">
 <path d="M6.72039 58.1729C7.25276 58.1729 7.6847 57.741 7.6847 57.2087V56.778C7.6847 56.2456 7.25276 55.8137 6.72039 55.8137C6.18803 55.8137 5.7561 56.2456 5.7561 56.778V57.2087C5.7561 57.741 6.18803 58.1729 6.72039 58.1729Z" fill="#EB6753"/>
 <path d="M5.7561 74.5271C5.7561 75.0593 6.18803 75.4913 6.72039 75.4913C7.25276 75.4913 7.6847 75.0593 7.6847 74.5271V60.5573C7.6847 60.025 7.25276 59.593 6.72039 59.593C6.18803 59.593 5.7561 60.025 5.7561 60.5573V74.5271Z" fill="#EB6753"/>
 <path d="M63.1311 16.4764C62.7303 16.1249 62.1225 16.1638 61.7697 16.5643C61.4187 16.9649 61.4583 17.5738 61.8579 17.9253L73.0125 27.7139C73.4121 28.0643 74.0211 28.0271 74.3733 27.626C74.7249 27.2255 74.6847 26.6165 74.2857 26.2649L63.1311 16.4764Z" fill="#EB6753"/>
@@ -24,16 +24,16 @@ const Railtor2 = () => {
 </g>
 <defs>
 <linearGradient id="paint0_linear_6108_170" x1="19.4997" y1="9.55786" x2="19.4997" y2="13.2736" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint1_linear_6108_170" x1="19.5061" y1="15.2021" x2="19.5061" y2="28.1622" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint2_linear_6108_170" x1="32.8133" y1="52.8606" x2="32.8133" y2="83.2679" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <clipPath id="clip0_6108_170">
 <rect width="90" height="90" fill="white" transform="translate(0.969971 0.449951)"/>

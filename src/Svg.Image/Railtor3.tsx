@@ -3,7 +3,7 @@ import React from 'react';
 const Railtor3 = () => {
   return (
     <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_6108_202)">
+<g clipPath="url(#clip0_6108_202)">
 <path d="M35.3933 44.5488H21.6711C21.1388 44.5488 20.7068 44.9808 20.7068 45.5131V60.7044C20.7068 61.2366 21.1388 61.6686 21.6711 61.6686C22.2035 61.6686 22.6354 61.2366 22.6354 60.7044V46.4774H35.3933C35.9257 46.4774 36.3576 46.0455 36.3576 45.5131C36.3576 44.9808 35.9257 44.5488 35.3933 44.5488Z" fill="#EB6753"/>
 <path d="M21.6711 63.3599C21.1388 63.3599 20.7068 63.7919 20.7068 64.3241V65.8559C20.7068 66.3881 21.1388 66.8201 21.6711 66.8201C22.2035 66.8201 22.6354 66.3881 22.6354 65.8559V64.3241C22.6354 63.7919 22.2035 63.3599 21.6711 63.3599Z" fill="#EB6753"/>
 <path d="M75.9949 25.2429C76.2631 25.2429 76.5301 25.1323 76.7203 24.9151C77.0719 24.5146 77.0323 23.9056 76.6315 23.5541L65.6959 13.9577C65.2963 13.6061 64.6861 13.6463 64.3357 14.0456C63.9841 14.4461 64.0237 15.0551 64.4239 15.4066L75.3595 25.003C75.5425 25.1637 75.7699 25.2429 75.9949 25.2429Z" fill="#EB6753"/>
@@ -22,16 +22,16 @@ const Railtor3 = () => {
 </g>
 <defs>
 <linearGradient id="paint0_linear_6108_202" x1="72.3685" y1="52.9553" x2="72.3685" y2="73.0379" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint1_linear_6108_202" x1="22.6232" y1="8.35449" x2="22.6232" y2="12.2502" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint2_linear_6108_202" x1="22.6235" y1="14.1912" x2="22.6235" y2="27.6654" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <clipPath id="clip0_6108_202">
 <rect width="90" height="90" fill="white" transform="translate(0.949951 0.449951)"/>

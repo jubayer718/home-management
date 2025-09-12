@@ -22,7 +22,7 @@ const SectionHeader = ({
   
 }:ISectionProps) => {
   return (
-    <Container>
+    <Container className='my-8'>
        <div className=''>
       <h1 className='text-3xl font-semibold'>{ headerText}</h1>
       <div className='lg:flex items-center justify-between'>
@@ -33,7 +33,7 @@ const SectionHeader = ({
           icon={icon && icon}
         />
       </div>
-    </div>
+      </div>
    </Container>
   );
 };

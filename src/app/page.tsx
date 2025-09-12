@@ -1,4 +1,5 @@
 
+import ApartType from "@/components/layout/ApartType";
 import FeatureList from "@/components/layout/FeatureList";
 import GridApartType from "@/components/layout/GridApartType";
 import Hero from "@/components/layout/Hero";
@@ -22,7 +23,11 @@ export default function Home() {
       <GridApartType />
       
       {/* Railtor help */}
-      <RailtorHelp/>
+      <RailtorHelp />
+      
+      {/* Apartment type */}
+      <ApartType/>
+
     </>
   );
 }

@@ -74,3 +74,67 @@ export const data = [
     button: "Find a home"
   },
 ]
+
+
+export const apartData = [
+  {
+    image: "/grid1.jpg",
+    title: "Houses",
+    paragraph:"7 Properties"
+  },
+  {
+    image: "/grid2.jpg",
+    title: "Apartment",
+    paragraph:"3 Properties"
+  },
+  {
+    image: "/grid3.jpg",
+    title: "Office",
+    paragraph:"4 Properties"
+  },
+  {
+    image: "/grid4.jpg",
+    title: "Villa",
+    paragraph:"4 Properties"
+  },
+  {
+    image: "/grid5.jpg",
+    title: "Townhome",
+    paragraph:"2 Properties"
+  },
+  {
+    image: "/grid6.jpg",
+    title: "Bungalow",
+    paragraph:"3 Properties"
+  },
+  {
+    image: "/grid1.jpg",
+    title: "Houses",
+    paragraph:"7 Properties"
+  },
+  {
+    image: "/grid2.jpg",
+    title: "Apartment",
+    paragraph:"3 Properties"
+  },
+  {
+    image: "/grid3.jpg",
+    title: "Office",
+    paragraph:"4 Properties"
+  },
+  {
+    image: "/grid4.jpg",
+    title: "Villa",
+    paragraph:"4 Properties"
+  },
+  {
+    image: "/grid5.jpg",
+    title: "Townhome",
+    paragraph:"2 Properties"
+  },
+  {
+    image: "/grid6.jpg",
+    title: "Bungalow",
+    paragraph:"3 Properties"
+  },
+]

@@ -23,16 +23,16 @@ const Railtor1 = () => {
 <path d="M65.4488 70.6745C66.416 70.6745 67.2032 71.4605 67.2032 72.4277C67.2032 72.9599 67.6352 73.3919 68.1674 73.3919C68.6996 73.3919 69.1316 72.9599 69.1316 72.4277C69.1316 70.7333 67.9742 69.3173 66.4136 68.8907V68.1749C66.4136 67.6427 65.9816 67.2107 65.4488 67.2107C64.9166 67.2107 64.4846 67.6427 64.4846 68.1749V68.8907C62.924 69.3173 61.7666 70.7333 61.7666 72.4277C61.7666 74.4581 63.419 76.1099 65.4488 76.1099C66.416 76.1099 67.2032 76.8971 67.2032 77.8643C67.2032 78.8309 66.416 79.6169 65.4488 79.6169C64.4822 79.6169 63.695 78.8309 63.695 77.8643C63.695 77.3321 63.263 76.9001 62.7308 76.9001C62.1986 76.9001 61.7666 77.3321 61.7666 77.8643C61.7666 79.5587 62.924 80.9747 64.4846 81.4013V82.1171C64.4846 82.6493 64.9166 83.0813 65.4488 83.0813C65.9816 83.0813 66.4136 82.6493 66.4136 82.1171V81.4013C67.9742 80.9747 69.1316 79.5587 69.1316 77.8643C69.1316 75.8339 67.4792 74.1815 65.4488 74.1815C64.4822 74.1815 63.695 73.3943 63.695 72.4277C63.695 71.4605 64.4822 70.6745 65.4488 70.6745Z" fill="#181A20"/>
 <defs>
 <linearGradient id="paint0_linear_6108_138" x1="35.8759" y1="53.0774" x2="35.8759" y2="84.6677" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint1_linear_6108_138" x1="20.2734" y1="8.35962" x2="20.2734" y2="12.2553" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 <linearGradient id="paint2_linear_6108_138" x1="20.2802" y1="14.1846" x2="20.2802" y2="27.6717" gradientUnits="userSpaceOnUse">
-<stop stop-color="#DDDDDD" stop-opacity="0"/>
-<stop offset="1" stop-color="#DDDDDD"/>
+<stop stopColor="#DDDDDD" stopOpacity="0"/>
+<stop offset="1" stopColor="#DDDDDD"/>
 </linearGradient>
 </defs>
 </svg>

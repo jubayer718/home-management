@@ -29,7 +29,7 @@ const SwiperFeatureList = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper "
      >
      
           {

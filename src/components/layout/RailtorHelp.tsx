@@ -17,7 +17,7 @@ const RailtorHelp = () => {
 
   {/* card */}
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 my-10'>
-        {railtor.map(data => <div>
+        {railtor.map((data,idx) => <div  key={idx}>
          <Card className='p-5 bg-white shadow-none'>
             <div className='flex items-center justify-center'>
               <data.icon />

@@ -138,3 +138,49 @@ export const apartData = [
     paragraph:"3 Properties"
   },
 ]
+
+
+export const livingData = [
+  {
+    image: '/people1.jpg',
+    name: "Ali Tufan",
+    designation: "Marketing",
+    icon: "",
+    paragraph: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti "
+  },
+  {
+    image: '/people2.jpg',
+    name: "Albert Flores",
+    designation: "Designer",
+    icon: "",
+    paragraph: "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae"
+  },
+  {
+    image: '/people3.jpg',
+    name: "Robert Fox",
+    designation: "Developer",
+    icon: "",
+    paragraph: "“Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit”"
+  },
+  {
+    image: '/people1.jpg',
+    name: "Ali Tufan",
+    designation: "Marketing",
+    icon: "",
+    paragraph: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti "
+  },
+  {
+    image: '/people2.jpg',
+    name: "Albert Flores",
+    designation: "Designer",
+    icon: "",
+    paragraph: "“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae"
+  },
+  {
+    image: '/people3.jpg',
+    name: "Robert Fox",
+    designation: "Developer",
+    icon: "",
+    paragraph: "“Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit”"
+  }
+]

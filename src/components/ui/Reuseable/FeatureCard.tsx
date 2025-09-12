@@ -27,7 +27,7 @@ const FeatureCard = ({feature}:ICardProps) => {
        <Card>
           
           <Image
-            src={image}
+            src={image as string} 
             width={500}
           height={300}
           // fill

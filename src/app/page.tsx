@@ -3,6 +3,7 @@ import FeatureList from "@/components/layout/FeatureList";
 import GridApartType from "@/components/layout/GridApartType";
 import Hero from "@/components/layout/Hero";
 import Navbar from "@/components/layout/Navbar";
+import RailtorHelp from "@/components/layout/RailtorHelp";
 
 
 export default function Home() {
@@ -18,7 +19,10 @@ export default function Home() {
 
 
       {/* Feature types */}
-      <GridApartType/>
+      <GridApartType />
+      
+      {/* Railtor help */}
+      <RailtorHelp/>
     </>
   );
 }

@@ -9,6 +9,7 @@ import Hero from "@/components/layout/Hero";
 import Living from "@/components/layout/Living";
 import Navbar from "@/components/layout/Navbar";
 import RailtorHelp from "@/components/layout/RailtorHelp";
+import Trusted from "@/components/layout/Trusted";
 
 
 export default function Home() {
@@ -42,7 +43,10 @@ export default function Home() {
       <BestDeals />
       
       {/* blog */}
-      <Blog/>
+      <Blog />
+      
+      {/* Trusted */}
+      <Trusted/>
 
     </>
   );

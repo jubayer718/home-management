@@ -4,6 +4,7 @@ import BestDeals from "@/components/layout/BestDeals";
 import Blog from "@/components/layout/Blog";
 import BuySell from "@/components/layout/BuySell";
 import FeatureList from "@/components/layout/FeatureList";
+import Footer from "@/components/layout/Footer";
 import GridApartType from "@/components/layout/GridApartType";
 import Hero from "@/components/layout/Hero";
 import Living from "@/components/layout/Living";
@@ -46,7 +47,10 @@ export default function Home() {
       <Blog />
       
       {/* Trusted */}
-      <Trusted/>
+      <Trusted />
+      
+      {/* Footer */}
+      <Footer/>
 
     </>
   );

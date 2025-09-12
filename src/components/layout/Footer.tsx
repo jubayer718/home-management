@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
           </div>
           {/*  */}
-          <div className=" flex flex-col  items-end">
+          <div className=" flex flex-col mt-5 md:mt-0  md:items-end">
             <div >
                <h5 className="font-semibold text-white ">Popular Search </h5>
             <ul className="mt-6 space-y-2 ">
@@ -59,7 +59,7 @@ const Footer = () => {
            </div>
           </div>
           {/*  */}
-          <div className=" flex flex-col  items-end">
+          <div className=" flex flex-col mt-5 md:mt-0  md:items-end">
             <div >
                <h5 className="font-semibold text-white ">Quick Link </h5>
             <ul className="mt-6 space-y-2 ">
@@ -75,7 +75,7 @@ const Footer = () => {
            </div>
           </div>
             {/*  */}
-           <div className=" flex flex-col  items-end">
+           <div className=" flex flex-col  mt-5 md:mt-0  md:items-end">
             <div className="flex flex-col " >
               <h5 className="font-semibold text-white mb-6">Apps </h5>
               
@@ -98,11 +98,11 @@ const Footer = () => {
         </div>
 
         <hr className="border border-white/10 mt-8 mb-6" />
-        <div className="md:flex  items-center justify-between">
+        <div className=" md:flex  items-center justify-between">
           <p className="text-white">© Homez – All rights reserved</p>
 
           {/* social links */}
-          <div className="flex items-center gap-4 text-white">
+          <div className="flex items-center gap-4 text-white mt-5">
             <span className="text-white font-semibold mr-2">Follow us on</span>
             <button><Link href={'#'}><FaFacebookF/></Link></button>
             <button><Link href={'#'}><FaTwitter/></Link></button>

@@ -24,7 +24,7 @@ const FeatureCard = ({feature}:ICardProps) => {
 
   return (
     <div>
-       <Card>
+       <Card className="bg-white/85 md:bg-transparent">
           
           <Image
             src={image as string} 

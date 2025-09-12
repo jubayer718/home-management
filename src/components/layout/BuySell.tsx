@@ -5,7 +5,7 @@ import {MdArrowOutward} from "react-icons/md"
 
 const BuySell = () => {
   return (
-    <div className='bg-[url(/bgImg.jpg)] bg-contain bg-no-repeat h-[400px] py-8 flex flex-col items-center justify-center my-8'>
+    <div className='bg-[url(/bgImg.jpg)] bg-cover md:bg-contain bg-no-repeat md:h-[400px] py-8 flex flex-col items-center justify-center my-8'>
       <Container >
         <div className=' flex flex-col  items-center justify-center space-y-3'>
           <p className='text-white'>BUY OR SELL</p>

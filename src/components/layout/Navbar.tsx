@@ -15,7 +15,7 @@ const Navbar = () => {
   const handleClose = () => setIsOpen(false);
 
   return (
-    <nav className='border-b fixed top-0 left-0 w-full z-50'>
+    <nav className='border-b bg-black/30 w-full fixed top-0 left-0  z-50'>
       <Container>
         <div className='flex items-center justify-between py-3 px-4 md:px-0'>
           {/* Logo */}
@@ -26,11 +26,11 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <ul className='hidden lg:flex items-center justify-center gap-10 font-medium text-white'>
-            <Link href={"/home"}>Home</Link>
-            <Link href={"/listing"}>Listing</Link>
-            <Link href={"/member"}>Member</Link>
-            <Link href={"/blog"}>Blog</Link>
-            <Link href={"/pages"}>Pages</Link>
+            <Link className='hover:border-b-2' href={"/home"}>Home</Link>
+            <Link className='hover:border-b-2' href={"/listing"}>Listing</Link>
+            <Link className='hover:border-b-2' href={"/member"}>Member</Link>
+            <Link className='hover:border-b-2' href={"/blog"}>Blog</Link>
+            <Link className='hover:border-b-2' href={"/pages"}>Pages</Link>
           </ul>
 
           {/* Login + Add Property (Desktop) */}
